@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+}
+nav {
+  background-color: #2d0606;
+  padding: 1rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 5%;
+}
+ul {
+  list-style-type: none;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 18px;
+}
+li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: 2rem;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+a:hover {
+  color: #706c6c;
+}
+body {
+  background-color: #f1d7c9;
+}
+img {
+  width: 60%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: 50vh;
+  width: 30%;
+}
+.content {
+  width: 70%;
+  padding: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d0606;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 10rem;
+}
+.section-title {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: #2d0606;
+  margin-top: 3rem;
+}
+.personal-info {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+  color: #2d0606;
+  margin-top: 2rem;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.skill li{
+  margin-right: 2rem;   
+  color: #2d0606;
+  
+}
+.hobbies li{
+  margin-right: 2rem;   
+  color: #2d0606;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-left: 3rem;
+}
+.mail {
+  text-align: center;
+  margin-top: 2rem;
+  color: #411db8;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
